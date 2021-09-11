@@ -17,7 +17,27 @@ kota."""
     print("a" < "b")
     print("aa" < "aaa")
 
-    napis =
+    napis = "Ala ma kota."
+    print(napis.lower())
+    print(napis.upper())
 
+    napis = "\t \n Napis ciekawy bardzo \n \t"
+    print(napis.strip())
+
+    napis = "wyraz, inny wyraz i jeszcze inny wyraz"
+    print(napis.count("wyraz "))
+
+    napis = napis.replace("wyraz", "WYRAZ")
+    print(napis)
+
+    lista_napisów = ["Ala", "ma", "kota"]
+    print(" ".join(lista_napisów))
+
+    napis = "Ala ma kota"
+    print(napis.split(" "))
+
+    napis = "Napis \" napis"
+    print(napis)
+    
 if __name__ == "__main__":
     napisy()
